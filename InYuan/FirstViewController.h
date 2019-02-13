@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import "DatabaseHelper.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController{
+
+}
 
 
 @end

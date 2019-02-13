@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1D53FA3A40C38F04667270 /* libPods-InYuan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 080CDA37E89E333CC1B52BB5 /* libPods-InYuan.a */; };
+		7E5C4B682206EFFB009ED84A /* tabbar_home_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5C4B662206EFFB009ED84A /* tabbar_home_selected@3x.png */; };
+		7E5C4B692206EFFB009ED84A /* tabbar_home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5C4B672206EFFB009ED84A /* tabbar_home@3x.png */; };
+		7E5C4B6C2206F040009ED84A /* tabbar_message_center_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5C4B6A2206F040009ED84A /* tabbar_message_center_selected@3x.png */; };
+		7E5C4B6D2206F040009ED84A /* tabbar_message_center@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5C4B6B2206F040009ED84A /* tabbar_message_center@3x.png */; };
+		7E5C4B7022072C8C009ED84A /* TabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C4B6F22072C8C009ED84A /* TabBarVC.m */; };
+		7E5C4B7F2209B7EA009ED84A /* RemoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C4B7D2209B7EA009ED84A /* RemoteVC.m */; };
+		7E5C4B822209D0EC009ED84A /* GlobalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C4B812209D0EC009ED84A /* GlobalData.m */; };
+		7E5C4B85220B2587009ED84A /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C4B84220B2587009ED84A /* HomeVC.m */; };
+		7E5C4B87220BD99A009ED84A /* songCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E5C4B86220BD99A009ED84A /* songCell.xib */; };
+		7E5C4B8A220BDA9B009ED84A /* SongCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C4B89220BDA9B009ED84A /* SongCell.m */; };
+		7E5C4B8E220C24F3009ED84A /* originalData.dms in Resources */ = {isa = PBXBuildFile; fileRef = 7E5C4B8D220C24F3009ED84A /* originalData.dms */; };
+		7E5C4B92220DB44F009ED84A /* SDCursorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C4B90220DB44F009ED84A /* SDCursorView.m */; };
+		7E5C4B98220EB558009ED84A /* SongTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C4B97220EB558009ED84A /* SongTableVC.m */; };
+		7E5C4BA622102528009ED84A /* Menu1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C4BA422102528009ED84A /* Menu1.m */; };
+		7E5C4BA722102528009ED84A /* Menu2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C4BA522102528009ED84A /* Menu2.m */; };
+		7E5C4BAD2212B9C7009ED84A /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E5C4BAC2212B9C6009ED84A /* test.json */; };
+		7E5C4BB322148EED009ED84A /* KRoomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C4BB122148EEC009ED84A /* KRoomItem.m */; };
+		7E5C4BB622148EF5009ED84A /* SongQueueListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C4BB522148EF5009ED84A /* SongQueueListItem.m */; };
 		7E72E34421FEA5BD000AE603 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E72E34321FEA5BD000AE603 /* AppDelegate.m */; };
 		7E72E34721FEA5BD000AE603 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E72E34621FEA5BD000AE603 /* FirstViewController.m */; };
 		7E72E34A21FEA5BD000AE603 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E72E34921FEA5BD000AE603 /* SecondViewController.m */; };
@@ -16,6 +35,11 @@
 		7E72E35521FEA5BD000AE603 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E72E35421FEA5BD000AE603 /* main.m */; };
 		7E72E35F21FEA5BD000AE603 /* InYuanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E72E35E21FEA5BD000AE603 /* InYuanTests.m */; };
 		7E72E36A21FEA5BD000AE603 /* InYuanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E72E36921FEA5BD000AE603 /* InYuanUITests.m */; };
+		7EB5D68C21FEF983006BF20D /* DatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB5D68521FEF982006BF20D /* DatabaseHelper.m */; };
+		7EB5D68D21FEF983006BF20D /* SongItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB5D68721FEF983006BF20D /* SongItem.m */; };
+		7EB5D68F21FEF983006BF20D /* UserItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB5D68B21FEF983006BF20D /* UserItem.m */; };
+		7F19AE962789B68D566585A6 /* libPods-InYuanUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C50C34A31982D3B78A3F19C /* libPods-InYuanUITests.a */; };
+		B061F6BE72A98B8CC5DE68F6 /* libPods-InYuanTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC9830E4820537795C59ED4 /* libPods-InYuanTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +60,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		080CDA37E89E333CC1B52BB5 /* libPods-InYuan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InYuan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		170AC26170631606F524243B /* Pods-InYuan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InYuan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InYuan/Pods-InYuan.debug.xcconfig"; sourceTree = "<group>"; };
+		3C50C34A31982D3B78A3F19C /* libPods-InYuanUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InYuanUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		677DEC091EA56B7AD5FCEAE1 /* Pods-InYuanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InYuanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InYuanTests/Pods-InYuanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BC9830E4820537795C59ED4 /* libPods-InYuanTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InYuanTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5C4B662206EFFB009ED84A /* tabbar_home_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home_selected@3x.png"; sourceTree = "<group>"; };
+		7E5C4B672206EFFB009ED84A /* tabbar_home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home@3x.png"; sourceTree = "<group>"; };
+		7E5C4B6A2206F040009ED84A /* tabbar_message_center_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_message_center_selected@3x.png"; sourceTree = "<group>"; };
+		7E5C4B6B2206F040009ED84A /* tabbar_message_center@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_message_center@3x.png"; sourceTree = "<group>"; };
+		7E5C4B6E22072C8C009ED84A /* TabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarVC.h; sourceTree = "<group>"; };
+		7E5C4B6F22072C8C009ED84A /* TabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarVC.m; sourceTree = "<group>"; };
+		7E5C4B7D2209B7EA009ED84A /* RemoteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteVC.m; sourceTree = "<group>"; };
+		7E5C4B7E2209B7EA009ED84A /* RemoteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteVC.h; sourceTree = "<group>"; };
+		7E5C4B802209D0EC009ED84A /* GlobalData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalData.h; sourceTree = "<group>"; };
+		7E5C4B812209D0EC009ED84A /* GlobalData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalData.m; sourceTree = "<group>"; };
+		7E5C4B83220B2587009ED84A /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		7E5C4B84220B2587009ED84A /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		7E5C4B86220BD99A009ED84A /* songCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = songCell.xib; sourceTree = "<group>"; };
+		7E5C4B88220BDA9B009ED84A /* SongCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongCell.h; sourceTree = "<group>"; };
+		7E5C4B89220BDA9B009ED84A /* SongCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongCell.m; sourceTree = "<group>"; };
+		7E5C4B8D220C24F3009ED84A /* originalData.dms */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = originalData.dms; sourceTree = "<group>"; };
+		7E5C4B90220DB44F009ED84A /* SDCursorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCursorView.m; sourceTree = "<group>"; };
+		7E5C4B91220DB44F009ED84A /* SDCursorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCursorView.h; sourceTree = "<group>"; };
+		7E5C4B96220EB558009ED84A /* SongTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongTableVC.h; sourceTree = "<group>"; };
+		7E5C4B97220EB558009ED84A /* SongTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongTableVC.m; sourceTree = "<group>"; };
+		7E5C4BA222102528009ED84A /* Menu2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu2.h; sourceTree = "<group>"; };
+		7E5C4BA322102528009ED84A /* Menu1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu1.h; sourceTree = "<group>"; };
+		7E5C4BA422102528009ED84A /* Menu1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu1.m; sourceTree = "<group>"; };
+		7E5C4BA522102528009ED84A /* Menu2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu2.m; sourceTree = "<group>"; };
+		7E5C4BA9221090D8009ED84A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7E5C4BAC2212B9C6009ED84A /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		7E5C4BB122148EEC009ED84A /* KRoomItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRoomItem.m; sourceTree = "<group>"; };
+		7E5C4BB222148EEC009ED84A /* KRoomItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRoomItem.h; sourceTree = "<group>"; };
+		7E5C4BB422148EF5009ED84A /* SongQueueListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongQueueListItem.h; sourceTree = "<group>"; };
+		7E5C4BB522148EF5009ED84A /* SongQueueListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongQueueListItem.m; sourceTree = "<group>"; };
 		7E72E33F21FEA5BD000AE603 /* InYuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InYuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E72E34221FEA5BD000AE603 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E72E34321FEA5BD000AE603 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +113,16 @@
 		7E72E36521FEA5BD000AE603 /* InYuanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InYuanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E72E36921FEA5BD000AE603 /* InYuanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InYuanUITests.m; sourceTree = "<group>"; };
 		7E72E36B21FEA5BD000AE603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB5D68521FEF982006BF20D /* DatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseHelper.m; sourceTree = "<group>"; };
+		7EB5D68621FEF982006BF20D /* SongItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongItem.h; sourceTree = "<group>"; };
+		7EB5D68721FEF983006BF20D /* SongItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongItem.m; sourceTree = "<group>"; };
+		7EB5D68821FEF983006BF20D /* UserItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserItem.h; sourceTree = "<group>"; };
+		7EB5D68A21FEF983006BF20D /* DatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseHelper.h; sourceTree = "<group>"; };
+		7EB5D68B21FEF983006BF20D /* UserItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserItem.m; sourceTree = "<group>"; };
+		81E3B551ED26CD7F7D39BE79 /* Pods-InYuanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InYuanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InYuanTests/Pods-InYuanTests.release.xcconfig"; sourceTree = "<group>"; };
+		A771D4F5D255AEECEC7411A8 /* Pods-InYuan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InYuan.release.xcconfig"; path = "Pods/Target Support Files/Pods-InYuan/Pods-InYuan.release.xcconfig"; sourceTree = "<group>"; };
+		BDFEF28C1F10A8752287E39D /* Pods-InYuanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InYuanUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InYuanUITests/Pods-InYuanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5CCEE44DC8883C064F5F094 /* Pods-InYuanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InYuanUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InYuanUITests/Pods-InYuanUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1D53FA3A40C38F04667270 /* libPods-InYuan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B061F6BE72A98B8CC5DE68F6 /* libPods-InYuanTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,19 +146,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F19AE962789B68D566585A6 /* libPods-InYuanUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DC0B4BCA1006A4AAE96947F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				170AC26170631606F524243B /* Pods-InYuan.debug.xcconfig */,
+				A771D4F5D255AEECEC7411A8 /* Pods-InYuan.release.xcconfig */,
+				677DEC091EA56B7AD5FCEAE1 /* Pods-InYuanTests.debug.xcconfig */,
+				81E3B551ED26CD7F7D39BE79 /* Pods-InYuanTests.release.xcconfig */,
+				BDFEF28C1F10A8752287E39D /* Pods-InYuanUITests.debug.xcconfig */,
+				E5CCEE44DC8883C064F5F094 /* Pods-InYuanUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E5C4B652206EFDE009ED84A /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				7E5C4B662206EFFB009ED84A /* tabbar_home_selected@3x.png */,
+				7E5C4B672206EFFB009ED84A /* tabbar_home@3x.png */,
+				7E5C4B6A2206F040009ED84A /* tabbar_message_center_selected@3x.png */,
+				7E5C4B6B2206F040009ED84A /* tabbar_message_center@3x.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		7E5C4B8F220DB42B009ED84A /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				7E5C4B91220DB44F009ED84A /* SDCursorView.h */,
+				7E5C4B90220DB44F009ED84A /* SDCursorView.m */,
+				7E5C4BA322102528009ED84A /* Menu1.h */,
+				7E5C4BA422102528009ED84A /* Menu1.m */,
+				7E5C4BA222102528009ED84A /* Menu2.h */,
+				7E5C4BA522102528009ED84A /* Menu2.m */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		7E5C4BA8221026DB009ED84A /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				7EB5D68A21FEF983006BF20D /* DatabaseHelper.h */,
+				7EB5D68521FEF982006BF20D /* DatabaseHelper.m */,
+				7EB5D68621FEF982006BF20D /* SongItem.h */,
+				7EB5D68721FEF983006BF20D /* SongItem.m */,
+				7EB5D68821FEF983006BF20D /* UserItem.h */,
+				7EB5D68B21FEF983006BF20D /* UserItem.m */,
+				7E5C4BB222148EEC009ED84A /* KRoomItem.h */,
+				7E5C4BB122148EEC009ED84A /* KRoomItem.m */,
+				7E5C4BB422148EF5009ED84A /* SongQueueListItem.h */,
+				7E5C4BB522148EF5009ED84A /* SongQueueListItem.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		7E5C4BAB221177FC009ED84A /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				7E5C4BAC2212B9C6009ED84A /* test.json */,
+				7E5C4B802209D0EC009ED84A /* GlobalData.h */,
+				7E5C4B812209D0EC009ED84A /* GlobalData.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 		7E72E33621FEA5BC000AE603 = {
 			isa = PBXGroup;
 			children = (
+				7E5C4BAB221177FC009ED84A /* Singleton */,
+				7E5C4BA8221026DB009ED84A /* DataBase */,
+				7E5C4B8F220DB42B009ED84A /* menu */,
+				7E5C4B652206EFDE009ED84A /* icon */,
 				7E72E34121FEA5BD000AE603 /* InYuan */,
 				7E72E35D21FEA5BD000AE603 /* InYuanTests */,
 				7E72E36821FEA5BD000AE603 /* InYuanUITests */,
 				7E72E34021FEA5BD000AE603 /* Products */,
+				4DC0B4BCA1006A4AAE96947F /* Pods */,
+				C278B7B6F8CDEE6845D04557 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +246,29 @@
 		7E72E34121FEA5BD000AE603 /* InYuan */ = {
 			isa = PBXGroup;
 			children = (
+				7E5C4B8D220C24F3009ED84A /* originalData.dms */,
 				7E72E34221FEA5BD000AE603 /* AppDelegate.h */,
 				7E72E34321FEA5BD000AE603 /* AppDelegate.m */,
-				7E72E34521FEA5BD000AE603 /* FirstViewController.h */,
-				7E72E34621FEA5BD000AE603 /* FirstViewController.m */,
-				7E72E34821FEA5BD000AE603 /* SecondViewController.h */,
-				7E72E34921FEA5BD000AE603 /* SecondViewController.m */,
-				7E72E34B21FEA5BD000AE603 /* Main.storyboard */,
 				7E72E34E21FEA5BD000AE603 /* Assets.xcassets */,
 				7E72E35021FEA5BD000AE603 /* LaunchScreen.storyboard */,
 				7E72E35321FEA5BD000AE603 /* Info.plist */,
 				7E72E35421FEA5BD000AE603 /* main.m */,
+				7E5C4B6E22072C8C009ED84A /* TabBarVC.h */,
+				7E5C4B6F22072C8C009ED84A /* TabBarVC.m */,
+				7E5C4B7E2209B7EA009ED84A /* RemoteVC.h */,
+				7E5C4B7D2209B7EA009ED84A /* RemoteVC.m */,
+				7E5C4B86220BD99A009ED84A /* songCell.xib */,
+				7E5C4B88220BDA9B009ED84A /* SongCell.h */,
+				7E5C4B89220BDA9B009ED84A /* SongCell.m */,
+				7E5C4B83220B2587009ED84A /* HomeVC.h */,
+				7E5C4B84220B2587009ED84A /* HomeVC.m */,
+				7E72E34821FEA5BD000AE603 /* SecondViewController.h */,
+				7E72E34921FEA5BD000AE603 /* SecondViewController.m */,
+				7E72E34B21FEA5BD000AE603 /* Main.storyboard */,
+				7E5C4B96220EB558009ED84A /* SongTableVC.h */,
+				7E5C4B97220EB558009ED84A /* SongTableVC.m */,
+				7E72E34521FEA5BD000AE603 /* FirstViewController.h */,
+				7E72E34621FEA5BD000AE603 /* FirstViewController.m */,
 			);
 			path = InYuan;
 			sourceTree = "<group>";
@@ -137,6 +291,17 @@
 			path = InYuanUITests;
 			sourceTree = "<group>";
 		};
+		C278B7B6F8CDEE6845D04557 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E5C4BA9221090D8009ED84A /* libsqlite3.0.tbd */,
+				080CDA37E89E333CC1B52BB5 /* libPods-InYuan.a */,
+				7BC9830E4820537795C59ED4 /* libPods-InYuanTests.a */,
+				3C50C34A31982D3B78A3F19C /* libPods-InYuanUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E72E36E21FEA5BD000AE603 /* Build configuration list for PBXNativeTarget "InYuan" */;
 			buildPhases = (
+				82BD95D40F672AC39F456290 /* [CP] Check Pods Manifest.lock */,
 				7E72E33B21FEA5BC000AE603 /* Sources */,
 				7E72E33C21FEA5BC000AE603 /* Frameworks */,
 				7E72E33D21FEA5BC000AE603 /* Resources */,
+				2CA307BC6A04F11D0178FDD3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,6 +328,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E72E37121FEA5BD000AE603 /* Build configuration list for PBXNativeTarget "InYuanTests" */;
 			buildPhases = (
+				7F3AEB4E0EA9C8EBF6747A08 /* [CP] Check Pods Manifest.lock */,
 				7E72E35621FEA5BD000AE603 /* Sources */,
 				7E72E35721FEA5BD000AE603 /* Frameworks */,
 				7E72E35821FEA5BD000AE603 /* Resources */,
@@ -179,6 +347,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E72E37421FEA5BD000AE603 /* Build configuration list for PBXNativeTarget "InYuanUITests" */;
 			buildPhases = (
+				58A03C74BD802B4881915362 /* [CP] Check Pods Manifest.lock */,
 				7E72E36121FEA5BD000AE603 /* Sources */,
 				7E72E36221FEA5BD000AE603 /* Frameworks */,
 				7E72E36321FEA5BD000AE603 /* Resources */,
@@ -240,7 +409,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5C4B87220BD99A009ED84A /* songCell.xib in Resources */,
 				7E72E35221FEA5BD000AE603 /* LaunchScreen.storyboard in Resources */,
+				7E5C4B6C2206F040009ED84A /* tabbar_message_center_selected@3x.png in Resources */,
+				7E5C4B6D2206F040009ED84A /* tabbar_message_center@3x.png in Resources */,
+				7E5C4B692206EFFB009ED84A /* tabbar_home@3x.png in Resources */,
+				7E5C4B682206EFFB009ED84A /* tabbar_home_selected@3x.png in Resources */,
+				7E5C4B8E220C24F3009ED84A /* originalData.dms in Resources */,
+				7E5C4BAD2212B9C7009ED84A /* test.json in Resources */,
 				7E72E34F21FEA5BD000AE603 /* Assets.xcassets in Resources */,
 				7E72E34D21FEA5BD000AE603 /* Main.storyboard in Resources */,
 			);
@@ -262,14 +438,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CA307BC6A04F11D0178FDD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InYuan/Pods-InYuan-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InYuan/Pods-InYuan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58A03C74BD802B4881915362 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InYuanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F3AEB4E0EA9C8EBF6747A08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InYuanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82BD95D40F672AC39F456290 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InYuan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E72E33B21FEA5BC000AE603 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EB5D68F21FEF983006BF20D /* UserItem.m in Sources */,
+				7EB5D68C21FEF983006BF20D /* DatabaseHelper.m in Sources */,
+				7E5C4B7022072C8C009ED84A /* TabBarVC.m in Sources */,
 				7E72E34A21FEA5BD000AE603 /* SecondViewController.m in Sources */,
 				7E72E34421FEA5BD000AE603 /* AppDelegate.m in Sources */,
+				7E5C4B92220DB44F009ED84A /* SDCursorView.m in Sources */,
+				7E5C4B7F2209B7EA009ED84A /* RemoteVC.m in Sources */,
+				7E5C4BB622148EF5009ED84A /* SongQueueListItem.m in Sources */,
+				7E5C4B85220B2587009ED84A /* HomeVC.m in Sources */,
+				7EB5D68D21FEF983006BF20D /* SongItem.m in Sources */,
+				7E5C4BA722102528009ED84A /* Menu2.m in Sources */,
+				7E5C4B8A220BDA9B009ED84A /* SongCell.m in Sources */,
+				7E5C4B98220EB558009ED84A /* SongTableVC.m in Sources */,
+				7E5C4BB322148EED009ED84A /* KRoomItem.m in Sources */,
 				7E72E35521FEA5BD000AE603 /* main.m in Sources */,
+				7E5C4BA622102528009ED84A /* Menu1.m in Sources */,
+				7E5C4B822209D0EC009ED84A /* GlobalData.m in Sources */,
 				7E72E34721FEA5BD000AE603 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +594,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		7E72E35021FEA5BD000AE603 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -439,6 +721,7 @@
 		};
 		7E72E36F21FEA5BD000AE603 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170AC26170631606F524243B /* Pods-InYuan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,12 +733,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotcom.InYuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7E72E37021FEA5BD000AE603 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A771D4F5D255AEECEC7411A8 /* Pods-InYuan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,12 +751,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotcom.InYuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		7E72E37221FEA5BD000AE603 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 677DEC091EA56B7AD5FCEAE1 /* Pods-InYuanTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +777,7 @@
 		};
 		7E72E37321FEA5BD000AE603 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E3B551ED26CD7F7D39BE79 /* Pods-InYuanTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +797,7 @@
 		};
 		7E72E37521FEA5BD000AE603 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDFEF28C1F10A8752287E39D /* Pods-InYuanUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4PJURQ3498;
@@ -529,6 +816,7 @@
 		};
 		7E72E37621FEA5BD000AE603 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5CCEE44DC8883C064F5F094 /* Pods-InYuanUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4PJURQ3498;

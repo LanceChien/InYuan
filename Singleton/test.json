@@ -1,0 +1,10 @@
+{
+    "list" : [
+        {
+            "name" : "傣俵",
+            "objectType" : "PhoneAppCtl"
+        }
+    ],
+    "object" : "MyKtvInfo",
+    "result" : "OK"
+}

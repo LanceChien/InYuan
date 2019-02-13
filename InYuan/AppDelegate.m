@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "GlobalData.h"
+#import "DatabaseHelper.h"
 
 @interface AppDelegate ()
 
@@ -16,10 +18,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+    NSLog(@"remoteMode:%d",[[GlobalData sharedManager]remoteMode]);
+    [self initAllGlobalData];
+        return YES;
 }
-
+-(void)initAllGlobalData{
+    DatabaseHelper *dbHelper=[DatabaseHelper new];
+    [dbHelper createDB];
+    //[dbHelper deleteDB];
+    //[dbHelper deleteTable];
+    
+    //[GlobalData sharedManager].resultArray=[dbHelper searchByLang:@"C" andWord:@"1" andBegin:@"0" andCount:@"30"];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
